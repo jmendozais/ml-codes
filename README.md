@@ -1,4 +1,4 @@
 ml-codes
 ========
 
-Repo to keep and share machine learning programs :)
+Repo to keep and share machine learning toys!
