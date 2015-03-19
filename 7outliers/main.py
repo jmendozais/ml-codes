@@ -51,7 +51,6 @@ for k in range(2, 40):
                 kmcand.add(index)
 kmcand
 kmcand & boxcand
-
 # knn
 
 for kv in range(2, 600):

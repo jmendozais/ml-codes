@@ -3,17 +3,13 @@ from os.path import isfile, join
 import csv
 
 
-def get_paths(path, categs):
-    data = []
-    idx = 0
-    for categ in categs:
-        data.append([])
-        dir_path = join(path, categ)
-        for doc in listdir(dir_path):
-            file_path = join(dir_path, doc)
-            if (isfile(file_path)):
-                data[idx].append(file_path)
-        ++idx
+def get_dataset(root):
+    paths = []
+    labels = []
+    for doc in listdir(dir_path):
+        file_path = join(dir_path, doc)
+        if isfile(file_path):
+            data[idx].append(file_path)
     return data
 
 
