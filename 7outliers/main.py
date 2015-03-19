@@ -11,7 +11,7 @@ noutliers = 7
 
 
 # Finding the limits that separed normal data of outliers
-# in heach dimension
+# in each dimension
 res = pl.boxplot(data, whis=2.2)
 fl = res['fliers']
 limits = len(fl)*[1e100]
